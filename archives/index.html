@@ -1,1005 +1,239 @@
-<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>文章归档 | 小帅博客</title>
+<meta name="description" content="" />
+<link rel="shortcut icon" href="https://gms2020.github.io/favicon.ico">
+<link rel="stylesheet" href="https://gms2020.github.io/styles/main.css">
 
-<head>
-  <meta charset="UTF-8" />
+<script src="https://gms2020.github.io/media/js/jquery.min.js"></script>
+<script src="https://gms2020.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://gms2020.github.io/media/js/aos.js"></script>
+<script src="https://gms2020.github.io/media/js/pace.min.js"></script>
+<script src="https://gms2020.github.io/media/js/view-image.min.js"></script>
+<script src="https://gms2020.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://gms2020.github.io/media/js/functions.js"></script>
+  </head>
+  <body>
+    <!-- start: #wrapper -->
+    <div class="wrapper">
+      
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://gms2020.github.io"><img src="/media/images/logoo.png" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<meta name="keywords" content="Gridea静态个人博客">
-<meta name="description" content="">
-<meta name="theme-color" content="#000">
-<title>小帅博客</title>
-<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/favicon.ico?v=1615294302811">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/media/css/gemini.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/media/fonts/font-awesome.css">
-<link
-  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
-  rel="stylesheet" type="text/css">
-
-<link href="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/media/hljs/styles/default.css"
-  rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/styles/main.css">
-
-<script src="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/media/hljs/highlight.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
-  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
-
-
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
-  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
-  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-  onload="renderMathInElement(document.body);"></script>
-
-
-
-
-
-  <meta name="description" content="">
-</head>
-
-<body>
-  <div class="head-top-line"></div>
-  <div class="header-box">
-    
-<div class="gemini">
-  <header class="header  ">
-    <div class="blog-header box-shadow-wrapper bg-color " id="header">
-      <div class="nav-toggle" id="nav_toggle">
-        <div class="toggle-box">
-          <div class="line line-top"></div>
-          <div class="line line-center"></div>
-          <div class="line line-bottom"></div>
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://gms2020.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="https://gms2020.github.io/" class="menu">
+                      首页
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://gms2020.github.io/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://gms2020.github.io/tags" class="menu">
+                      标签
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://gms2020.github.io/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://gms2020.github.io/friends" class="menu">
+                      友链
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1615294738810" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="site-meta">       
-        <div class="site-title">
-          
-            <a href="/" class="brand">
-              <span>小帅博客</span>
-            </a>  
-          
+
+      <main id="home" class="main fullcover no-sidebar content">
+        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
+                
+            <!-- start: .articles -->
+            
+
+
+<div class="main-article post">
+  <h2 class="year">共 3 篇文章</h2>
+
+</div>
+            <!-- end: .articles -->
+            
+                        <div class="epcl-pagination section">
+              <div class="nav">
+                
+                
+              </div>
+            </div>
+            
+          </div>
+          </div>
         </div>
-        
-          <p class="subtitle">精于心，简于形</p>
-        
-      </div>
-      <nav class="site-nav" id="site_nav">
-        <ul id="nav_ul">
-          
-            
-            
-              
-            
-            <li class="nav-item ">
-              
-              
-                <a href="https://gms2020.github.io//" target="_self">
-                  <i class="fa fa-globe"></i> 首页
-                </a>
-              
-            </li>
-          
-            
-            
-              
-            
-            <li class="nav-item ">
-              
-              
-                <a href="https://gms2020.github.io/archives/" target="_self">
-                  <i class="fa fa-globe"></i> 归档
-                </a>
-              
-            </li>
-          
-            
-            
-              
-            
-            <li class="nav-item ">
-              
-              
-                <a href="https://gms2020.github.io/tags/" target="_self">
-                  <i class="fa fa-globe"></i> 标签
-                </a>
-              
-            </li>
-          
-            
-            
-              
-            
-            <li class="nav-item ">
-              
-              
-                <a href="https://gms2020.github.io/post/about/" target="_self">
-                  <i class="fa fa-globe"></i> 关于
-                </a>
-              
-            </li>
-          
-            
-            
-              
-            
-            <li class="nav-item ">
-              
-              
-                <a href="https://gms2020.github.io/friends/" target="_blank">
-                  <i class="fa fa-globe"></i> 友链
-                </a>
-              
-            </li>
-          
-          
-            
-              <li class="nav-item ">
-                <a href="/friends/" target="_self">
+      </main>
+
+        <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
                   
-                    <i class="fa fa-address-book"></i> 友情链接
                   
-                </a>
-              </li>
-            
-          
-          
-            <li id="fa_search" class="nav-item">
-              <a href="javascript:void(0);">
-                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
-              </a>
-            </li>
-          
-        </ul>
-      </nav>
-    </div>
-  </header>
-</div>
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://gms2020.github.io/post/xi-you-ruan-jian-zi-yuan/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-02-15">2021-02-15</time>
+                      <h4 class="title usmall">
+                        <a href="https://gms2020.github.io/post/xi-you-ruan-jian-zi-yuan/">稀有软件资源</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://gms2020.github.io/post/yong-gridea-zai-github-shang-da-jian-jing-tai-bo-ke/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-12-19">2020-12-19</time>
+                      <h4 class="title usmall">
+                        <a href="https://gms2020.github.io/post/yong-gridea-zai-github-shang-da-jian-jing-tai-bo-ke/">Gridea搭建个人静态博客</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://gms2020.github.io/post/about/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-11-06">2020-11-06</time>
+                      <h4 class="title usmall">
+                        <a href="https://gms2020.github.io/post/about/">关于小帅</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-<script type="text/javascript"> 
- 
-  let showNav = true;
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-  let navToggle = document.querySelector('#nav_toggle'),
-  siteNav = document.querySelector('#site_nav');
-  
-  function navClick() {
-    let sideBar = document.querySelector('.sidebar');
-    let navUl = document.querySelector('#nav_ul');
-    navToggle.classList.toggle('nav-toggle-active');
-    siteNav.classList.toggle('nav-menu-active');
-    if (siteNav.classList.contains('nav-menu-active')) {
-      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
-    } else {
-      siteNav.style = "";
-    }
-  }
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://gms2020.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">小帅博客</a></h4>
+                    <p class="founder"></p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
 
-  navToggle.addEventListener('click',navClick);  
-</script>
-  </div>
-  <div class="main-continer">
-    
-    <div
-      class="section-layout  gemini">
-      <div class="section-layout-wrapper">
-        <div id="sidebarMeta" class="sidebar">
-    
-<div class="sidebar-wrapper box-shadow-wrapper bg-color">
-  <div class="sidebar-item">
-    <img class="site-author-image right-motion" src="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/images/avatar.png"/>
-    <p class="site-author-name">适用 Gemini,Pisces 布局,版权说明需配置</p>
-    
-  </div>
-  <div class="sidebar-item side-item-stat right-motion">
-    <div class="sidebar-item-box">
-      <a href="/archives/">
-        
-        <span class="site-item-stat-count">0</span>
-        <span class="site-item-stat-name language" data-lan="article">文章</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="">
-        <span class="site-item-stat-count">0</span>
-        <span class="site-item-stat-name language" data-lan="category">分类</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="/tags/">
-        <span class="site-item-stat-count">0</span>
-        <span class="site-item-stat-name language" data-lan="tag">标签</span>
-      </a>
-    </div>
-  </div>
-  
-    
-  
-  
-
-
-
-</div>
-</div>
-<script>
-  let sidebarMeta = document.querySelector('#sidebarMeta');
-  let scheme = 'gemini';
-  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
-  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
-    document.addEventListener('scroll', function(e) {
-      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
-        sidebarWrapper.classList.add('home-sidebar-fixed')
-      } else {
-        sidebarWrapper.classList.remove('home-sidebar-fixed')
-      }
-    });
-  }
-  </script>
-        <div class="section-box box-shadow-wrapper">
-          <section class="section archives-section bg-color posts-expand">
-            
-
-<div class="bg-color">
-  <div class="archive-timeline-box">
-    <div class="archive-timeline-title">
-      
-        <h2 class="language" data-lan="archives" data-count="0">非常好！目前共计0篇日志，继续努力！</h2>
-      
-    </div>
-    
-  </div>
-  
-<div class="page bg-color">
-  <ul class="pagination-ul">
-    
-    
-      
-    
-    
-  </ul>
-</div>
-</div>
-
-          </section>
+            </div>
+            <div class="clear"></div>
         </div>
-      </div>
-    </div>
-    <div class="footer-box">
-  <footer class="footer">
-    <div class="copyright">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a
-        href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
-    </div>
-    <div class="poweredby">
-      
-    </div>
-  </footer>
-  
-  
-  <div class="gemini back-to-top" id="back_to_top">
-    <i class="fa fa-arrow-up"></i>
+
+        <div class="logo">
+          <a href="https://gms2020.github.io"><img src="/media/images/gridea.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 3 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
     
-    <span class="scrollpercent">
-      <span id="back_to_top_text">0</span>%
-    </span>
-    
-  </div>
-  
-  
-  
-</div>
-<script>
+    <div class="clear"></div>
 
-  let sideBarOpen = 'sidebar-open';
-  let body = document.body;
-  let back2Top = document.querySelector('#back_to_top'),
-    back2TopText = document.querySelector('#back_to_top_text'),
-    drawerBox = document.querySelector('#drawer_box'),
-    rightSideBar = document.querySelector('.sidebar'),
-    viewport = document.querySelector('body');
+        
 
-  function scrollAnimation(currentY, targetY) {
-
-    let needScrollTop = targetY - currentY
-    let _currentY = currentY
-    setTimeout(() => {
-      const dist = Math.ceil(needScrollTop / 10)
-      _currentY += dist
-      window.scrollTo(_currentY, currentY)
-      if (needScrollTop > 10 || needScrollTop < -10) {
-        scrollAnimation(_currentY, targetY)
-      } else {
-        window.scrollTo(_currentY, targetY)
-      }
-    }, 1)
-  }
-
-  back2Top.addEventListener("click", function (e) {
-    scrollAnimation(document.scrollingElement.scrollTop, 0);
-    e.stopPropagation();
-    return false;
-  });
-
-  window.addEventListener('scroll', function (e) {
-    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
-    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
-      back2Top.classList.add('back-top-active');
-    }
-    if (percent == 0) {
-      back2Top.classList.remove('back-top-active');
-    }
-    if (back2TopText) {
-      back2TopText.textContent = Math.floor(percent);
-    }
-  });
-
-
-  let hasCacu = false;
-  window.onresize = function () {
-    calcuHeight();
-  }
-
-  function calcuHeight() {
-    // 动态调整站点概览高度
-    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
-      let sideBar = document.querySelector('.sidebar');
-      let navUl = document.querySelector('#site_nav');
-      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
-      hasCacu = true;
-    }
-  }
-  calcuHeight();
-
-  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
-
-  if (drawerBox) {
-    let rightMotions = document.querySelectorAll('.right-motion');
-    let right = drawerBox.classList.contains('right');
-
-    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
-
-    let openProp, closeProp;
-    if (right) {
-      openProp = {
-        paddingRight: RIGHT_MOVE_DIS
-      };
-      closeProp = {
-        paddingRight: '0px'
-      };
-    } else {
-      openProp = {
-        paddingLeft: RIGHT_MOVE_DIS
-      };
-      closeProp = {
-        paddingLeft: '0px'
-      };
-    }
-
-    drawerBox.onclick = function () {
-      open = !open;
-      window.Velocity(rightSideBar, 'stop');
-      window.Velocity(viewport, 'stop');
-      window.Velocity(rightMotions, 'stop');
-      if (open) {
-        window.Velocity(rightSideBar, {
-          width: RIGHT_MOVE_DIS
-        }, {
-          duration: MOTION_TIME,
-          begin: function () {
-            window.Velocity(rightMotions, transitionDir, {});
-          }
-        })
-        window.Velocity(viewport, openProp, {
-          duration: MOTION_TIME
-        });
-      } else {
-        window.Velocity(rightSideBar, {
-          width: '0px'
-        }, {
-          duration: MOTION_TIME,
-          begin: function () {
-            window.Velocity(rightMotions, {
-              opacity: 0
-            });
-          }
-        })
-        window.Velocity(viewport, closeProp, {
-          duration: MOTION_TIME
-        });
-      }
-      for (let i = 0; i < drawerBox.children.length; i++) {
-        drawerBox.children[i].classList.toggle('muse-line');
-      }
-      drawerBox.classList.toggle(sideBarOpen);
-    }
-  }
-
-  // 链接跳转
-  let newWindow = 'false'
-  if (newWindow === 'true') {
-    let links = document.querySelectorAll('.post-body a')
-    links.forEach(item => {
-      if (!item.classList.contains('btn')) {
-        item.setAttribute("target", "_blank");
-      }
-    })
-  }
-
-  let faSearch = document.querySelector('#fa_search');
-  faSearch.addEventListener('click', function () {
-    document.querySelector('#search_mask').style = ''
-  })
-
-  // 代码高亮
-  hljs.initHighlightingOnLoad();
-  
-  // 离开当前页title变化
-  var leaveTitle = "";
-  if (leaveTitle) {
-    document.addEventListener('visibilitychange', function () {
-      if (document.visibilityState == 'hidden') {
-        normal_title = document.title;
-        document.title = leaveTitle;
-      } else {
-        document.title = normal_title;
-      }
-    });
-  }
-
-</script>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-<script>
-  let images = document.querySelectorAll('.section img');
-  console.log(images);
-  images.forEach(image => {
-    var parent = image.parentElement;
-    var next = image.nextElementSibling;
-    parent.removeChild(image);
-    var aelem = document.createElement('a');
-    aelem.href = image.src;
-    aelem.dataset['fancybox'] = 'images';
-    aelem.dataset['rel'] = 'fancybox-button';
-    aelem.classList.add('fancybox');
-    aelem.appendChild(image);
-    parent.insertBefore(aelem, next);
-  })
-</script>
-  </div>
-</body>
-
-<div class="search-mask" id="search_mask" style="display: none;">
-  <div class="search-box">
-    <div class="search-title">
-      <i class="fa fa-search"></i>
-      <div class="input-box">
-        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
-      </div>
-      <i id="close" class="fa fa-times-circle"></i>
     </div>
-    <div class="stat-box">
-      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
-      <hr>
-    </div>
-    <div class="result" id="result">
-      
-      <div class="item">
-        <a class="result-title" style="opacity: 0;" href="https://gms2020.github.io/post/xi-you-ruan-jian-zi-yuan/"" data-c="
-          &lt;blockquote&gt;
-&lt;p&gt;很多软件被&lt;strong&gt;苏州思杰马克丁软件有限公司&lt;/strong&gt;代理而导致网上很多资源无法寻找&lt;/p&gt;
-&lt;p&gt;本页主要收集的是这些软件的破解版下载地址&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;资源均来自网络，仅供学习交流试看，严禁用于商业用途，请于下载后24小时内删除！请支持正版！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;FXXKMAKEDING网站地址：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.fxxkmakeding.xyz/&#34;&gt;https://www.fxxkmakeding.xyz&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;下载页面&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://node4.mkdmirror.workers.dev/&#34;&gt;https://node4.mkdmirror.workers.dev&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mkd.imfast.io/&#34;&gt;https://mkd.imfast.io&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;镜像下载：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://mkd.zrj766.cn&#34;&gt;https://mkd.zrj766.cn&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mirror.digac.top/&#34;&gt;https://mirror.digac.top&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://dl.hee.ink/home/1/MAKEDING&#34;&gt;https://dl.hee.ink/home/1/MAKEDING&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://file.kxit.net/makeding/&#34;&gt;https://file.kxit.net/makeding/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;部分软件可以在下述地址搜索下载：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;懒得勤快： &lt;a href=&#34;https://masuit.com/&#34;&gt;https://masuit.com/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;其他稀有资源：&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;瓜子云盘：&lt;a href=&#34;https://yun.naodai.org/Software/&#34;&gt;https://yun.naodai.org/Software/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;脑袋瓜子博客：&lt;a href=&#34;https://www.naodai.org/&#34;&gt;https://www.naodai.org/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;TG群&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;FXXKMAKEDING：&lt;a href=&#34;https://t.me/fxxkmkd_channel&#34;&gt;https://t.me/fxxkmkd_channel&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;FL破解补丁： &lt;a href=&#34;https://t.me/flstudioc&#34;&gt;https://t.me/flstudioc&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;高木同学： &lt;a href=&#34;https://t.me/gaomutongxue&#34;&gt;https://t.me/gaomutongxue&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-">稀有软件资源</a>
-      </div>
-      
-      <div class="item">
-        <a class="result-title" style="opacity: 0;" href="https://gms2020.github.io/post/yong-gridea-zai-github-shang-da-jian-jing-tai-bo-ke/"" data-c="
-          &lt;h1 id=&#34;1-了解工作&#34;&gt;1. 了解工作🤗&lt;/h1&gt;
-&lt;p&gt;Gridea：&lt;u&gt;https://gridea.dev/&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;Gridea，一个静态博客写作客户端，小白也可以 GitHub Pages搭建静态博客。零成本、开源、易用、强大。记录生活、心情、知识、笔记、创意...&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Gridea 特色&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Markdown：使用最酷的 Markdown 进行创作，专注内容，其他的交给 Gridea&lt;/li&gt;
-&lt;li&gt;封面图：快去挑选一张漂亮的封面图，为文章添彩，外链图也没问题哦&lt;/li&gt;
-&lt;li&gt;自定义标签：用标签来为文章进行归类，以你喜欢的方式：编程、旅行、读书笔记...，化繁为简、不必纠结&lt;/li&gt;
-&lt;li&gt;自定义菜单：我们提供了自定义菜单功能，同时贴心地准备了主页、归档和标签列表快捷选择。当然，你也可以创建外部菜单到任何地方&lt;/li&gt;
-&lt;li&gt;跨设备：或许你工作使用 Mac，生活使用 Windows，又或许你是使用 Linux 的极客，这都不是事儿，Gridea 全都支持！同时支持更改源文件夹，利用 OneDrive、Dropbox 等同步工具，跨设备管理博客轻而易举！&lt;/li&gt;
-&lt;li&gt;多平台：大部分情况下你用 Github Pages 来托管博客就够了，但我们同时提供了 Coding Pages 的支持&lt;/li&gt;
-&lt;li&gt;多评论：Gridea 内置了 Gitalk 和 DisqusJS 两个评论系统，你可以任选其一，利用评论结交更多朋友吧！&lt;/li&gt;
-&lt;li&gt;多主题：我们目前提供了 4 款内置主题，总有一款会获得你的芳心，更有趣的是，我们为每款主题提供了丰富的自定义配置，稍加配置，遇见大不同&lt;/li&gt;
-&lt;li&gt;多语言：是的，我们贴心地为您内置了中文简体和 English 两种语言&lt;/li&gt;
-&lt;li&gt;RSS：RSS 也是一个不错的信息订阅方式&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;2-github-配置&#34;&gt;2. GitHub 配置🤗&lt;/h1&gt;
-&lt;h2 id=&#34;21申请账号&#34;&gt;2.1申请账号&lt;/h2&gt;
-&lt;p&gt;首先去github：&lt;u&gt;https://github.com/&lt;/u&gt; 申请github账号，按要求填写就行了。&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144650.png&#34; alt=&#34;img&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;直接continue&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144736.png&#34; alt=&#34;img&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;翻译一下，看心情添加&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144747.png&#34; alt=&#34;img&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;然后去邮箱里验证一下就可以啦，登上我们的github账号。&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;4&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144757.png&#34; alt=&#34;1566639275844&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;h2 id=&#34;22-创建仓库&#34;&gt;2.2 创建仓库&lt;/h2&gt;
-&lt;p&gt;建议你创建仓库名为 &lt;strong&gt;用户名.github.io&lt;/strong&gt; 的仓库，因为 Github 会默认将此仓库设置成 &lt;code&gt;Github Pages&lt;/code&gt; 可访问类型，若不是用此命名的仓库，则不能默认使用 &lt;code&gt;Github Pages&lt;/code&gt;，所以请认真确认。&lt;/p&gt;
-&lt;p&gt;例如我的 &lt;code&gt;Github&lt;/code&gt; 用户名为 &lt;code&gt;gms2020&lt;/code&gt;，则仓库名为 &lt;strong&gt;gms2020.github.io&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;使用这种方式还有一个好处是，在没有自定义域名的情况下，使你的博客域名更短。&lt;/p&gt;
-&lt;p&gt;个人的博客地址就是设置的仓库名：&lt;u&gt;gms2020.github.io/&lt;/u&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;点击右上角的加号，选择new  repository&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;5&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144552.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;然后对仓库信息进行设置。注意箭头标识的几个地方&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;6&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154252.png&#34; alt=&#34;image-20210125124016213&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;设置好点击Create repository&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;7&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154246.png&#34; alt=&#34;image-20210125124405404&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;23-生成仓库token&#34;&gt;2.3 生成仓库Token&lt;/h2&gt;
-&lt;p&gt;点击这里：&lt;u&gt;https://github.com/settings/tokens/new&lt;/u&gt; 创建一个 Token，&lt;strong&gt;勾选上 repo 的相关权限即可&lt;/strong&gt;。生成之后记得把 Token 复制到你的本地，因为一旦关闭网页将不能再看到它。&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154303.png&#34; alt=&#34;img&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144855.png&#34; alt=&#34;img&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;3-安装gridea&#34;&gt;3. 安装Gridea🤗&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;官网安装点击 Gridea：&lt;u&gt;https://gridea.dev/&lt;/u&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gridea v0.9.2版本已经更换 Git 部署模块，本地不需要安装 Git 也可以畅快使用 Gridea。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;不限速云盘点我：&lt;u&gt;https://gmengshuai.lanzous.com/iqEMCjie20d&lt;/u&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;4-配置gridea&#34;&gt;4. 配置Gridea🤗&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Gridea 提供了将博客部署到 GitHub Pages、Coding Pages 和通过 SFTP 的方式上传到自己的服务器的功能。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;下面将以 GitHub 为例，来讲一下部署流程。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;进入 Gridea 进行远程设置&lt;/strong&gt;。按照下图的示例进行设置，然后点击「检测远程链接」，进行配置检查。&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;8&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154403.png&#34; alt=&#34;image-20210125130720426&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;5-主题选择&#34;&gt;5. 主题选择 🤗&lt;/h1&gt;
-&lt;p&gt;建议选择提供的主题，想要使用更多的主题点更多主题&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;如何选择使用其它主题&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;点击更多主题进入官网&lt;/li&gt;
-&lt;li&gt;主题官网：&lt;u&gt;https://gridea.dev/themes&lt;/u&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;选择一个喜欢的进行下载&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;9&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144907.png&#34; alt=&#34;20201219140127&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;下载后进行解压，把解压的文件夹放入【站点源文件路径】中的主题文件夹中&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;【站点源文件路径】在哪里？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;看下图进行操作&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;10&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144944.png&#34; alt=&#34;20201219141506&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;11&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219152137.png&#34; alt=&#34;20201219141545&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;12&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219144954.png&#34; alt=&#34;20201219141708&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;h1 id=&#34;6-菜单设置&#34;&gt;6. 菜单设置🤗&lt;/h1&gt;
-&lt;p&gt;点击菜单选项，进行跳转，还需要小小的更改一下&lt;/p&gt;
-&lt;p&gt;下面以【首页】这项菜单为例&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;13&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154419.png&#34; alt=&#34;image-20210125131531956&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;第一步&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;14&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154426.png&#34; alt=&#34;image-20210125131736985&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;第二步&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;15&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154433.png&#34; alt=&#34;image-20210125132029653&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;其它菜单设置同上&lt;/p&gt;
-&lt;h1 id=&#34;7-评论配置&#34;&gt;7. 评论配置🤗&lt;/h1&gt;
-&lt;p&gt;Gridea配置Gitalk评论系统&lt;/p&gt;
-&lt;p&gt;Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件，可以使用GitHub账号进行登录。&lt;/p&gt;
-&lt;p&gt;Gridea官方文档中并没有对Gitalk评论进行配置对教程，其实步骤很简单，不过在配置的过程中有一些我们需要注意的地方，话不多说，直接上教程。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;首先，需要在GitHub账号设置里配置一个OAuth Application&lt;/li&gt;
-&lt;li&gt;配置地址点击这里：&lt;u&gt;https://github.com/settings/applications/new&lt;/u&gt;&lt;/li&gt;
-&lt;li&gt;如图：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;16&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154442.png&#34; alt=&#34;image-20210111103917072&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;p&gt;例如：&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;17&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154450.png&#34; alt=&#34;image-20210125144830052&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;blockquote&gt;
-&lt;p&gt;⚠️需要注意的是HomePage URL和Authorization callback URL需要填写https而不是http&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;配置完成后，会获得&lt;strong&gt;Client ID&lt;/strong&gt; 和&lt;strong&gt;Client Secret&lt;/strong&gt;，打开Gridea远程设置中完善配置，如下图：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;18&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154458.png&#34; alt=&#34;image-20210125132625804&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;blockquote&gt;
-&lt;p&gt;⚠️仓库名称一定要输入正确，若不知道，进入自己的仓库的设置中看一下，配置错误会出现[404 not found]&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;19&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210125154505.png&#34; alt=&#34;image-20210125132206547&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;配置完成后保存并且把网站发布即可，发布后请用部署的地址访问网站而不是本地预览，否则会出现「&lt;strong&gt;未找到相关的 Issues 进行评论请联系 @_____ 初始化创建&lt;/strong&gt;」的提示。还有一个原因是因为你的部署站点的Git仓库未打开issue，在仓库中把issue打开即可。（具体设置在仓库setting中设置）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;20&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210111111245.png&#34; alt=&#34;image-20210111105036710&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;h1 id=&#34;8-小结一下&#34;&gt;8. 小结一下🤗&lt;/h1&gt;
-&lt;p&gt;点击右上角的加号就可以进行愉快的写文章了，写完后点击左下角的同步就行了&lt;/p&gt;
-&lt;figure data-type=&#34;image&#34; tabindex=&#34;21&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20201219145006.png&#34; alt=&#34;20201219142223&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
-&lt;blockquote&gt;
-&lt;p&gt;评论配置🉑留在最后，不配置也可以，这一项看心情&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;GitHub Pages搭建静态博客到这算是搞定了，我折腾了好多次，希望本篇文章对你有所帮助&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;文中若有错误的地方，欢迎留言进行指正&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;如果还有不懂的地方，也可以留言告诉我&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我的演示站点：&lt;u&gt;https://gms2020.github.io/&lt;/u&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;参考：&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;官方文档：&lt;u&gt;https://gridea.dev/docs/&lt;/u&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-">Gridea搭建个人静态博客</a>
-      </div>
-      
-      <div class="item">
-        <a class="result-title" style="opacity: 0;" href="https://gms2020.github.io/post/about/"" data-c="
-          &lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;保证所发是所用，绝对不会无脑复制，希望来到此博客的朋友，能够真正受益。&lt;br&gt;
-同时我也是一个喜欢交友的人，希望能够结交更多的朋友！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一名中等努力的大学狗&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;个性签名&#34;&gt;🗡个性签名&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210111110215.png&#34; alt=&#34;签名2&#34; style=&#34;zoom:200%;&#34; /&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;微信公众号&#34;&gt;💦微信公众号&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;微信公众号：小帅随笔&lt;/p&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210218120955.png&#34; alt=&#34;扫码_搜索联合传播样式-标准色版&#34; style=&#34;zoom: 50%;&#34; /&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;QQ群：765653974&lt;/p&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/gms2020/BlogPicture/img/20210209161017.png&#34; alt=&#34;小帅交流群1群聊二维码.png&#34; style=&#34;zoom:80%;&#34; /&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;邮箱&lt;/strong&gt; ：&lt;br&gt;
-xiaoshuaiqmail@qq.com&lt;br&gt;
-gmengshuai@gmail.com&lt;/p&gt;
-&lt;/blockquote&gt;
-">关于小帅</a>
-      </div>
-      
-    </div>
-    <div class="page">
-      <div id="page_ul"></div>
-    </div>
-  </div>
-</div>
-<script>
-  !function () {
-    let searchMask = document.querySelector('#search_mask');
-    let result = document.querySelector('#result');
-    let items = document.querySelectorAll('.item');
-    let searchBox = document.querySelector('#search');
-    let statCount = document.querySelector('#stat_count');
-    let statTimes = document.querySelector('#stat_times');
-    let pageUl = document.querySelector('#page_ul');
-    let close = document.querySelector('#close');
-    
-    close.addEventListener('click', function() {
-      searchMask.style = 'display: none;'
-    })
-
-    let finds = [];
-    let contents = [];
-    let pageSize = 10;
-    items.forEach(item => {
-      let a = item.querySelector('a');
-      contents.push({
-        title: a.innerText,
-        details: a.dataset.c,
-        link: a.href
-      })
-      item.remove();
-    })
-
-    function insertStr(soure, start, count) {
-      let newStr = soure.substr(start, count);
-      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
-    }
-
-    pageUl.addEventListener('click', function(event) {
-      let target = event.target;
-      if (target.__proto__ === HTMLSpanElement.prototype) {
-        appendResults(parseInt(target.dataset.i));
-      }
-    })
-
-    function appendResults(index) {
-      let htmlResult = '';
-      let start = index || 0;
-      let end = Math.min(start + pageSize, finds.length);
-      for (let i = start; i < end; i++) {
-        const current = finds[i];
-        let html = current.title;
-        let sum = 0;
-        let positions = current.positions;
-        positions.forEach(position => {
-          html = insertStr(html, position.start + sum, position.count);
-          sum += 9;
-        })
-        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
-      }
-      result.innerHTML = htmlResult;
-      pageUl.innerHTML = '';
-      let count = finds.length / pageSize;
-      let lis = '';
-      if (start !== 0) {
-        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
-      }
-      for (let i = 0; i < count; i++) {
-        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
-      }
-      if (start+1 < count) {
-        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
-      }
-      pageUl.innerHTML = lis;
-    }
-
-    function search(delay) {
-      let timer = null
-      return function () {
-        clearTimeout(timer)
-        timer = setTimeout(() => {
-          let start = Date.now();
-          let segments = searchBox.value.split(' ').filter(c => c != '');
-          if (segments.length <= 0) {
-            return;
-          }
-          finds = [];
-          let htmlResult = '';
-          contents.forEach(content => {
-            let title = content.title;
-            let positions = [];
-            let find = false;
-            segments.forEach((segment) => {
-              if (content.title.includes(segment)) {
-                find = true;
-                positions.push({
-                  start: content.title.indexOf(segment),
-                  count: segment.length
-                })
-              } else if (content.details.includes(segment)) {
-                find = true;
-              }
-            });
-            if (find) {
-              finds.push({
-                title: content.title,
-                link: content.link,
-                positions
-              });
-            }
-          })
-          appendResults(0);
-          statCount.textContent = finds.length;
-          statTimes.textContent = Date.now() - start;
-        }, delay)
-      }
-    }
-    searchBox.addEventListener('input', search(200));
-  }()
-</script>
-
-<input hidden id="copy" />
-<script>
-  !function () {
-    let times = document.querySelectorAll('.publish-time');
-    for (let i = 0; i < times.length; i++) {
-      let date = times[i].dataset.t;
-      let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
-      if (time < 60) {
-        str = time + '秒之前';
-      } else if (time < 3600) {
-        str = Math.floor(time / 60) + '分钟之前';
-      } else if (time >= 3600 && time < 86400) {
-        str = Math.floor(time / 3600) + '小时之前';
-      } else if (time >= 86400 && time < 259200) {
-        str = Math.floor(time / 86400) + '天之前';
-      } else {
-        str = times[i].textContent;
-      }
-      times[i].textContent = str;
-    }
-  }();
-</script>
-
-<script>
-  let language = '';
-  if (language !== '') {
-    let map = new Map();
-    if (language === 'en') {
-      map.set('search', 'Search');
-      map.set('category', 'Categories');
-      map.set('article', 'Articles');
-      map.set('tag', 'Tags');
-      map.set('top', 'Top');
-      map.set('publish', 'published');
-      map.set('minute', ' minutes');
-      map.set('read-more', 'Read More');
-      map.set('view', 'View');
-      map.set('words', ' words');
-      map.set('category-in', 'category in');
-      map.set('preview', 'Meta');
-      map.set('index', 'Toc');
-      map.set('no-archives', "You haven't created yet");
-      map.set('archives', " articles in total");
-      map.set('cloud-tags', " tags in total");
-      map.set('copyright', "Copyright: ");
-      map.set('author', "Author: ");
-      map.set('link', "Link: ");
-      map.set('leave-message', "Leave a message");
-      map.set('format', "Links Format");
-      map.set('site-name', "Name: ");
-      map.set('site-link', "Link: ");
-      map.set('site-desc', "Desc: ");
-      map.set('stat', " related results, taking ");
-      map.set('stat-time', " ms");
-      map.set('site-img', "Image: ");
-    }
-
-    if (map.size > 0) {
-      let lanElems = document.querySelectorAll('.language');
-      lanElems.forEach(elem => {
-        let lan = elem.dataset.lan, text = map.get(lan);
-        if (elem.__proto__ === HTMLInputElement.prototype) {
-          elem.placeholder = text
-        } else {
-          if (elem.dataset.count) {
-            text = elem.dataset.count + text;
-          }
-          elem.textContent = text;
-        }
-      })
-    }
-  }
-  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
-  window.Clipboard = (function (window, document, navigator) {
-    var textArea,
-      copy;
-
-    // 判断是不是ios端
-    function isOS() {
-      return navigator.userAgent.match(/ipad|iphone/i);
-    }
-    //创建文本元素
-    function createTextArea(text) {
-      textArea = document.createElement('textArea');
-      textArea.value = text;
-      textArea.style.width = 0;
-      textArea.style.height = 0;
-      textArea.clientHeight = 0;
-      textArea.clientWidth = 0;
-      document.body.appendChild(textArea);
-    }
-    //选择内容
-    function selectText() {
-      var range,
-        selection;
-
-      if (isOS()) {
-        range = document.createRange();
-        range.selectNodeContents(textArea);
-        selection = window.getSelection();
-        selection.removeAllRanges();
-        selection.addRange(range);
-        textArea.setSelectionRange(0, 999999);
-      } else {
-        textArea.select();
-      }
-    }
-
-    //复制到剪贴板
-    function copyToClipboard() {
-      try {
-        document.execCommand("Copy")
-      } catch (err) {
-        alert("复制错误！请手动复制！")
-      }
-      document.body.removeChild(textArea);
-    }
-
-    copy = function (text) {
-      createTextArea(text);
-      selectText();
-      copyToClipboard();
-    };
-
-    return {
-      copy: copy
-    };
-  })(window, document, navigator);
-
-  function copyCode(e) {
-    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
-      let code = e.currentTarget.querySelector('code');
-      var text = code.innerText;
-      if (e.srcElement.textContent === '复制成功') {
-        return;
-      }
-      e.srcElement.textContent = '复制成功';
-      (function (elem) {
-        setTimeout(() => {
-          if (elem.textContent === '复制成功') {
-            elem.textContent = '复制代码'
-          }
-        }, 1000);
-      })(e.srcElement)
-      Clipboard.copy(text);
-    }
-  }
-
-  let pres = document.querySelectorAll('pre');
-  pres.forEach(pre => {
-    let code = pre.querySelector('code');
-    let copyElem = document.createElement('span');
-    copyElem.classList.add('copy-code');
-    copyElem.textContent = '复制代码';
-    pre.appendChild(copyElem);
-    pre.onclick = copyCode
-  })
-
-</script>
-<script src="https://cdn.jsdelivr.net/gh/gms2020/gms2020.github.io@main/media/js/motion.js"></script>
-
-
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script>
-  var scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 200
-  });
-</script>
-
-
-
-
-
-
+    <!-- end: #wrapper -->
+  </body>
 </html>
