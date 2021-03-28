@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gms2020.github.io</id>
-    <title>小帅博客</title>
-    <updated>2021-03-23T13:13:50.560Z</updated>
+    <title>小帅同学的博客</title>
+    <updated>2021-03-28T03:06:11.991Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gms2020.github.io"/>
     <link rel="self" href="https://gms2020.github.io/atom.xml"/>
     <logo>https://gms2020.github.io/images/avatar.png</logo>
     <icon>https://gms2020.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 小帅博客</rights>
+    <rights>All rights reserved 2021, 小帅同学的博客</rights>
 </feed>
